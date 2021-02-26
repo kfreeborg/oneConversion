@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'oneConversion';
+  title = 'MyProject';
+
+  showMsg = false;
+
+  switchValue = "three";
+
+  users = [
+    {id:1, name:'john'},
+    {id:2, name: "jackson"}
+  ];
+  
+
+  readMe() {
+    console.log("button clicked");
+  }
 }
